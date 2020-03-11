@@ -1,0 +1,27 @@
+{
+  "name" : "Test Apiman API Catalog",
+  "apis" : [
+    {
+      "id" : "vine-api",
+      "icon" : "vine",
+      "endpoint" : "https://api.vineapp.com/",
+      "endpointType" : "rest",
+      "name" : "Vine API",
+      "description" : "The Vine API allows users to retrieve data from the service, including popular videos, user data, a user's timeline, videos matching a given tag, individual posts, and notifications.",
+      "definitionUrl" : "https://github.com/starlock/vino/wiki/API-Reference",
+      "definitionType" : "External",
+      "tags" : [ "video", "mobile" ]
+    },
+    {
+      "id" : "facebook-api",
+      "icon" : "facebook-official",
+      "endpoint" : "http://api.facebook.com/restserver.php",
+      "endpointType" : "rest",
+      "name" : "Facebook API",
+      "description" : "The Facebook API is a platform for building applications that are available to the members of the social network of Facebook.",
+      "definitionUrl" : "https://developers.facebook.com/",
+      "definitionType" : "External",
+      "tags" : [ "social", "web-hooks" ]
+    }
+  ]
+}
