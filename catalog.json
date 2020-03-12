@@ -2,26 +2,26 @@
   "name" : "Test Apiman API Catalog",
   "apis" : [
     {
-      "id" : "vine-api",
+      "id" : "car-api",
       "icon" : "vine",
-      "endpoint" : "https://api.vineapp.com/",
+      "endpoint" : "http://192.168.239.16/1/index.json",
       "endpointType" : "rest",
-      "name" : "Vine API",
-      "description" : "The Vine API allows users to retrieve data from the service, including popular videos, user data, a user's timeline, videos matching a given tag, individual posts, and notifications.",
+      "name" : "Car API",
+      "description" : "Car api - showing list of vans in current inventory",
       "definitionUrl" : "https://github.com/starlock/vino/wiki/API-Reference",
       "definitionType" : "External",
-      "tags" : [ "video", "mobile" ]
+      "tags" : [ "vehicle", "car" ]
     },
     {
-      "id" : "facebook-api",
+      "id" : "van-api",
       "icon" : "facebook-official",
-      "endpoint" : "http://api.facebook.com/restserver.php",
+      "endpoint" : "http://192.168.239.16/2/index.json",
       "endpointType" : "rest",
-      "name" : "Facebook API",
-      "description" : "The Facebook API is a platform for building applications that are available to the members of the social network of Facebook.",
+      "name" : "Van API",
+      "description" : "Van api - showing list of vans in current inventory",
       "definitionUrl" : "https://developers.facebook.com/",
       "definitionType" : "External",
-      "tags" : [ "social", "web-hooks" ]
+      "tags" : [ "vehicle", "van" ]
     }
   ]
 }
